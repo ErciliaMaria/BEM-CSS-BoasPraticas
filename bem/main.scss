@@ -1,0 +1,40 @@
+header > .container {
+    display: flex;
+
+        nav ul > li > a {
+            margin-left: 10px;
+            display: inline!important;
+        }
+    }
+
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto {
+    display: inline;
+    padding-bottom: 1px;
+
+    &__imagem {
+        width: 200px;
+        border-radius: 20px;
+        ;
+    }
+
+    &__nome {
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+
+    &__saiba {
+        padding: 4px;
+        background-color: yellowgreen;
+
+        &--hover:hover {
+            background-color: rgb(162, 74, 50);
+        }
+    }
+}

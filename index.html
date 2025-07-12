@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício boas práticas de CSS</title>
+    <link rel="stylesheet" href="/bem/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Produtos Amazon</h1>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Produto</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="produtos container">
+        <div class="produto">
+            <img class="produto__imagem" src="/style/imagem_azul.png">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+            <a class="produto__saiba produto__saiba--hover" href="#">Saiba mais</a>
+        </div>
+        <div class="produto produto__destaque">
+            <img class="produto__imagem" src="/style/imagem_azul.png">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+            <a class="produto__saiba produto__saiba--hover" href="#">Saiba mais</a>
+        </div>
+        <div class="produto">
+            <img class="produto__imagem" src="/style/imagem_azul.png">
+            <h4 class="produto__nome">Nome do produto</h4>
+            <p class="produto__descricao">
+                Descrição do produto
+            </p>
+            <a class="produto__saiba produto__saiba--hover" href="#">Saiba mais</a>
+        </div>
+    </div>
+</body>
+
+</html>
