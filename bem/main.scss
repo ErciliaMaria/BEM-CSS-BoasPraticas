@@ -28,10 +28,16 @@ header > .container {
         font-size: 1.2em;
         margin: 8px 0;
     }
+    &__destaque{
+        background-color:rgb(195, 195, 207);
+        margin: 0px 10px;
+        border-radius: 5px;
+    }
 
     &__saiba {
         padding: 4px;
         background-color: yellowgreen;
+        border-radius: 5px;;
 
         &--hover:hover {
             background-color: rgb(162, 74, 50);
